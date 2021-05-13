@@ -1,0 +1,14 @@
+<div class="white-bg">
+  <div class="row">
+    <p class="layer">Tipo :</p>
+    <p [ngClass]="'value-' + obesity">{{ type }}</p>
+  </div>
+  <div class="row">
+    <p class="layer">Grau de Obesidade :</p>
+    <p [ngClass]="'value-' + obesity">{{ obesity }}</p>
+  </div>
+  <div class="row">
+    <p class="layer">Valor :</p>
+    <p [ngClass]="'value-' + obesity">{{ value.toFixed(2) }}</p>
+  </div>
+</div>
